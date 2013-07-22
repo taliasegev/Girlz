@@ -18,6 +18,7 @@
 		3BAD48E1179D356100B3F93F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAD48E0179D356100B3F93F /* Default-568h@2x.png */; };
 		3BAD48E4179D356100B3F93F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAD48E2179D356100B3F93F /* MainStoryboard.storyboard */; };
 		3BAD48E7179D356100B3F93F /* GirlzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD48E6179D356100B3F93F /* GirlzViewController.m */; };
+		3BAD48F7179D388300B3F93F /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD48F6179D388300B3F93F /* Profile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		3BAD48E3179D356100B3F93F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3BAD48E5179D356100B3F93F /* GirlzViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GirlzViewController.h; sourceTree = "<group>"; };
 		3BAD48E6179D356100B3F93F /* GirlzViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GirlzViewController.m; sourceTree = "<group>"; };
+		3BAD48F5179D388300B3F93F /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		3BAD48F6179D388300B3F93F /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		3BAD48D0179D356100B3F93F /* Girlz */ = {
 			isa = PBXGroup;
 			children = (
+				3BAD48F4179D37E900B3F93F /* Model */,
 				3BAD48D9179D356100B3F93F /* GirlzAppDelegate.h */,
 				3BAD48DA179D356100B3F93F /* GirlzAppDelegate.m */,
 				3BAD48E2179D356100B3F93F /* MainStoryboard.storyboard */,
@@ -105,6 +109,15 @@
 				3BAD48E0179D356100B3F93F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BAD48F4179D37E900B3F93F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD48F5179D388300B3F93F /* Profile.h */,
+				3BAD48F6179D388300B3F93F /* Profile.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				3BAD48D7179D356100B3F93F /* main.m in Sources */,
 				3BAD48DB179D356100B3F93F /* GirlzAppDelegate.m in Sources */,
 				3BAD48E7179D356100B3F93F /* GirlzViewController.m in Sources */,
+				3BAD48F7179D388300B3F93F /* Profile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
